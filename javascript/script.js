@@ -59,5 +59,8 @@ function timer() {
     document.getElementById('milissegundos').innerText = returnData(milissegundo)
 }
 
-
+//A função de returnData é usada apenas para deixar o texto mais dinâmico na tela, fazendo a seguinte logica, se o digito for menor que 10 então concatena com um 0(zero) na frente.
+function returnData(input) {
+    return input > 10 ? input : `0${input}`
+}
 
