@@ -1,6 +1,6 @@
 ## ⏱️Cronômetro
 
-> ⚙️ Para acessar a Cronômetro, clique <a href="https://thamiresantos.github.io/calculadora/" target= "_blank">aqui.</a> 
+> ⚙️ Para acessar o Cronômetro, clique <a href="https://thamiresantos.github.io/cronometro" target= "_blank">aqui.</a> 
 
 <p align="center">
   <img alt="Imagem do projeto" src="estilos/captura-de-tela-pc.png" width="100%">
