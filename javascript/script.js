@@ -38,3 +38,26 @@ function reset() {
 
 }
 
+//função contando o tempo 
+function timer() {
+    if((milissegundo += 10) == 1000) {
+        milissegundo = 0;
+        segundo++;
+    }
+    if(segundo == 60) {
+        segundo = 0;
+        minuto++;
+    }
+    if(minuto == 60) {
+        minuto = 0;
+        hora++;
+    }
+
+    document.getElementById('horas').innerText = returnData(hora);
+    document.getElementById('minutos').innerText = returnData(minuto);
+    document.getElementById('segundos').innerText = returnData(segundo);
+    document.getElementById('milissegundos').innerText = returnData(milissegundo)
+}
+
+
+
