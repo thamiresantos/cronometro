@@ -8,10 +8,14 @@ let milissegundo = 0;
 
 let cron;
 
-
 //função iniciar
 function start() {
     pause();
     cron = setInterval(() => {timer();}, 10);
+}
+
+//função parar
+function pause(){
+    clearInterval(cron);
 }
 
