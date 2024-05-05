@@ -8,6 +8,11 @@ let milissegundo = 0;
 
 let cron;
 
+//associando as funções aos seus botões.
+document.form_main.iniciar.onclick = () => start();
+document.form_main.parar.onclick = () => pause();
+document.form_main.reset.onclick = () => reset();
+
 //função iniciar
 function start() {
     pause();
@@ -32,5 +37,4 @@ function reset() {
     document.getElementById('milissegundos').innerText = '000';
 
 }
-
 
