@@ -77,3 +77,33 @@ img {
 #rodape a:hover {
     color: #A70A0A;
 }
+
+/* responsivo para telas mobile */
+@media (max-width:500px ) {
+    img{
+        width: 180px;
+        height: 180px;
+        top: 59px;
+        right: 3px;
+    }
+
+    #conteiner {
+        width: 340px;
+        height: 200px;
+    }
+
+    #form--principal {
+        width: 200px;
+        height: 100px;
+    }
+
+    .botoes {
+        width: 60px;
+        font-size: 12.5px;
+        margin: 10px 4px 0 0;
+    }
+
+    #rodape {
+        font-size: 16px;
+    }
+}
