@@ -90,6 +90,7 @@ img {
     #conteiner {
         width: 340px;
         height: 200px;
+        margin:50px 5px 50px 5px;
     }
 
     #form--principal {
